@@ -314,7 +314,7 @@ class AppStore extends Component {
     )
 
     const searchResults = filteredAppList.filter(eachApp =>
-      eachApp.appName.toLocaleLowerCase().includes(searchValue),
+      eachApp.appName.toLowerCase().includes(searchValue.toLowerCase()),
     )
     return searchResults
   }

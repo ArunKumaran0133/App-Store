@@ -6,7 +6,7 @@ const AppItem = props => {
 
   return (
     <li className="app-card ">
-      <img src={imageUrl} alt="appName" className="app-logo" />
+      <img src={imageUrl} alt={appName} className="app-logo" />
       <p className="app-name">{appName}</p>
     </li>
   )
