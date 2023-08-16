@@ -1,0 +1,19 @@
+.tab-item {
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dfe2e5;
+  border-top: none;
+  font-family: 'Bree Serif';
+  font-size: 17px;
+  color: #7b8794;
+  background-color: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+}
+
+.active-tab {
+  border-bottom: 1px solid #2563eb;
+  padding-bottom: 5px;
+  color: #2563eb;
+}
